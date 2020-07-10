@@ -2002,6 +2002,7 @@ input, select, textarea {
 			text-align: center;
 			align-items: center;
 			justify-content: center;
+			overflow: hidden;
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -3769,7 +3770,7 @@ input, select, textarea {
 /* Additional Styling */
 	#skill-icons {
 		transition: all .2s ease-in-out;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 
 	#skill-icons:hover {

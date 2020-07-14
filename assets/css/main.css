@@ -2400,7 +2400,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+.image {
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
@@ -3722,14 +3722,14 @@ input, select, textarea {
 	}
 
 
-	#intro .profile-img {
+	.profile-img {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		margin-bottom: 0.5em;
 	}
 
-	#intro img {
+	#intro-img {
 		position: relative;
 		width: 100%;
 		max-width: 200px;
@@ -3803,6 +3803,3 @@ input, select, textarea {
 		100% { text-shadow: 0 0 -10px #31abe4; color:rgba(255, 255, 255, 1.0)}
 	}
 
-	.resume-btn {
-
-	}

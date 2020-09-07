@@ -1994,7 +1994,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3em 3em 1em 3em ;
+			padding: 3em 3em 3em 3em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -2003,6 +2003,15 @@ input, select, textarea {
 			align-items: center;
 			justify-content: center;
 			overflow: hidden;
+			overflow-x: scroll;
+		}
+
+		.features section::-webkit-scrollbar {
+				display: none;
+		}
+
+		.features section div {
+			width: 100%;
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -2048,7 +2057,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 2em 1.5em 0.1em 10.5em ;
 			}
 
 				.features section .icon {

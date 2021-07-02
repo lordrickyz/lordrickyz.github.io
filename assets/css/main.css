@@ -3738,13 +3738,36 @@ input, select, textarea {
 		margin-bottom: 0.5em;
 	}
 
-	.typewriter h1 {
-		border-right: .15em solid white;
-		white-space: nowrap;
-  	overflow: hidden;
+	@media screen and (max-width: 530px) {
+		.profile-img {
+			display: flex;
+			flex-direction: column;
+			/* flex-direction: column; */
+		}
+
+		#intro-img {
+			align-self: center;
+		}
+
+	.typewriter {
+		align-self: center;
+		text-align: center;
 	}
 
-	.typewriter h1:nth-child(1) {
+	.typewriter h1 {
+		width: 8em;
+		margin: 20px 0px 0px 0px !important;
+	}
+
+
+	}
+
+	.typewriter h1 {
+		width: 8em;
+		margin: 60px 20px 0px;
+	}
+
+	/* .typewriter h1:nth-child(1) {
 		width: 8em;
 		margin: 20px 20px 0px;
 		-webkit-animation: type 2s steps(40, end);
@@ -3820,7 +3843,7 @@ input, select, textarea {
 			opacity: 1;
 			border: none;
 		}
-	}
+	} */
 
 	#intro-img {
 		position: relative;
